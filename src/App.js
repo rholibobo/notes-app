@@ -27,7 +27,7 @@ export default function App() {
     }
     
     function updateNote(text) {
-        // Code to put the most recent change at the top
+        // Code to put the most recent note at the top
         setNotes(oldNotes => {
            const newArray = []
            for(let i = 0; i < oldNotes.length; i++){
